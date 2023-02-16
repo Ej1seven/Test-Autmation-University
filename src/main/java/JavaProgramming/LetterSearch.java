@@ -1,6 +1,5 @@
 package JavaProgramming;
 
-import com.sun.tools.jdeprscan.scan.Scan;
 
 import java.util.Scanner;
 
@@ -23,6 +22,12 @@ public class LetterSearch {
                 letterFound = true;
                 break;
             }
+        }
+
+        if(letterFound){
+            System.out.println("This text contains the letter 'A'");
+        } else {
+            System.out.println("This text does not contain the letter 'A");
         }
     }
 }
